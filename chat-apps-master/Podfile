@@ -1,0 +1,19 @@
+platform :ios, '13.0'
+
+target 'Flash Chat iOS13' do
+  use_frameworks!
+
+  # Pods for Flash Chat iOS13
+  
+  # Label Animation
+  pod 'CLTypingLabel'
+  
+  #Firebase
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  
+  #IQKeyboardManager
+  pod 'IQKeyboardManagerSwift'
+  
+
+end
